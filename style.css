@@ -1,46 +1,13 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.8rem;
-  color: hsl(201, 11%, 66%);
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-h1,
-h2,
-h3 {
-  color: hsl(210, 10%, 33%);
-  font-weight: 600;
-}
-
-h1 {
-  font-size: 4rem;
-}
-
-.container {
-  max-width: 120rem;
-  margin: 0 auto;
-}
-
 /* *************** */
 /* Section Header */
 /* *************** */
 .section-header {
   text-align: center;
+  margin-bottom: 14.8rem;
 }
 
 .container-header {
-  max-width: 66rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
@@ -71,10 +38,19 @@ h1 {
   color: #fff;
   padding: 0.8rem 1.6rem;
   border-radius: 20px;
+  transition: all 0.3s;
 }
 
-.btn:hover,
-.btn:active {
+.btn--green:hover,
+.btn--green:active {
+  cursor: pointer;
+  background-color: hsla(171, 66%, 44%, 0.744);
+}
+
+.btn--blue:hover,
+.btn--blue:active {
+  cursor: pointer;
+  background-color: hsla(233, 100%, 69%, 0.744);
 }
 
 .btn--green {
@@ -85,4 +61,42 @@ h1 {
 .btn--blue {
   background-color: hsl(233, 100%, 69%);
   box-shadow: 0rem 1.25rem 2rem 0rem hsla(233, 100%, 69%, 0.224);
+}
+
+/* *************** */
+/* Section Keep  */
+/* *************** */
+.section-keep {
+  text-align: center;
+  margin-bottom: 9.6rem;
+}
+
+/* *************** */
+/* Section Monitor Image */
+/* *************** */
+.section-monitor {
+  margin-bottom: 12.8rem;
+}
+
+.computer-img {
+  transform: translateX(-20rem);
+}
+
+.monitor-par {
+  padding-bottom: 4.8rem;
+}
+
+/* *************** */
+/* Section Access */
+/* *************** */
+.section-access {
+  text-align: center;
+}
+
+.access-par {
+  margin-bottom: 9.6rem;
+}
+
+.access-img {
+  transform: translateX(-10rem);
 }
