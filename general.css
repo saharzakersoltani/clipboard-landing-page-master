@@ -46,7 +46,7 @@ h3 {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 125rem;
   margin: 0 auto;
 }
 
@@ -58,4 +58,23 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   /* justify-content: start; */
+}
+
+.grid--three-columns {
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 4.4rem;
+  align-items: baseline;
+}
+
+.grid--five-columns {
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  column-gap: 12.6rem;
+}
+
+.grid--six-columns {
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 9.6rem;
 }

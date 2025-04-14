@@ -4,7 +4,14 @@
 .section-header {
   text-align: center;
   margin-bottom: 14.8rem;
+  padding-top: 12.8rem;
+  background-image: url(images/bg-header-desktop.png);
+  background-size: cover;
 }
+
+/* .background-desktop {
+  transform: translateX(-100rem);
+} */
 
 .container-header {
   max-width: 70rem;
@@ -91,6 +98,7 @@
 /* *************** */
 .section-access {
   text-align: center;
+  margin-bottom: 4.8rem;
 }
 
 .access-par {
@@ -99,4 +107,121 @@
 
 .access-img {
   transform: translateX(-10rem);
+}
+
+/* *************** */
+/* Section Superchange */
+/* *************** */
+.section-superchange {
+  text-align: center;
+  margin-bottom: 7.4rem;
+}
+
+/* *************** */
+/* Section Features */
+/* *************** */
+.section-features {
+  /* text-align: center; */
+  margin-bottom: 14.8rem;
+}
+
+.feature-icon {
+  padding-bottom: 3.2rem;
+}
+
+/* *************** */
+/* Section Logo */
+/* *************** */
+.section-logo {
+  margin-bottom: 14.8rem;
+}
+
+/* *************** */
+/* Section Clipboard */
+/* *************** */
+.section-clipboard {
+  text-align: center;
+  margin-bottom: 14.8rem;
+}
+
+/* *************** */
+/* Section Footer */
+/* *************** */
+.section-footer {
+  background-color: hsla(202, 11%, 66%, 0.205);
+  padding-top: 3.2rem;
+  padding-bottom: 1.6rem;
+}
+
+.footer-img {
+  width: 6rem;
+}
+
+li {
+  list-style: none;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-icons {
+  grid-column: 6/7;
+  align-self: center;
+}
+
+.footer-icons-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-icon {
+  font-size: 3.2rem;
+}
+
+.footer-icon-link:link,
+.footer-icon-link:visited {
+  color: hsl(210, 10%, 33%);
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:active {
+  color: hsl(171, 66%, 44%);
+  transition: all 0.3s;
+}
+
+/* *************** */
+/* Section Footer */
+/* *************** */
+.attribution {
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+
+.attribution-link:link,
+.attribution-link:visited {
+  color: hsl(171, 66%, 44%);
+  text-decoration: none;
+  transform: all 0.3s;
+}
+
+.attribution-link:hover,
+.attribution-link:active {
+  color: hsla(171, 66%, 44%, 0.785);
 }

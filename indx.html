@@ -18,6 +18,11 @@
   <body>
     <header>
       <div class="section-header">
+        <div
+          class="background-desktop"
+          role="img"
+          aria-label="background desktop"
+        ></div>
         <!-- <img
           class="bg-desktop"
           src="images/bg-header-desktop.png"
@@ -109,7 +114,11 @@
       <div class="section-features">
         <div class="container grid grid--three-columns">
           <div>
-            <img src="images/icon-blacklist.svg" alt="blacklist icon" />
+            <img
+              class="feature-icon"
+              src="images/icon-blacklist.svg"
+              alt="blacklist icon"
+            />
             <h3>Create blacklists</h3>
             <p>
               Ensure sensitive information never makes its way to your clipboard
@@ -117,14 +126,22 @@
             </p>
           </div>
           <div>
-            <img src="images/icon-text.svg" alt="text icon" />
+            <img
+              class="feature-icon"
+              src="images/icon-text.svg"
+              alt="text icon"
+            />
             <h3>Plain text snippets</h3>
             <p>
               Remove unwanted formatting from copied text for a consistent look.
             </p>
           </div>
           <div>
-            <img src="images/icon-preview.svg" alt="preview icon" />
+            <img
+              class="feature-icon"
+              src="images/icon-preview.svg"
+              alt="preview icon"
+            />
             <h3>Sneak preview</h3>
             <p>
               Quick preview of all snippets on your Clipboard for easy access.
@@ -135,7 +152,7 @@
 
       <!-- SECTION LOGO -->
       <div class="section-logo">
-        <div class="container grid grid-four-columns">
+        <div class="container grid grid--five-columns">
           <img src="images/logo-google.png" alt="Google logo" />
           <img src="images/logo-ibm.png" alt="IBM logo" />
           <img src="images/logo-microsoft.png" alt="Microsoft logo" />
@@ -149,14 +166,16 @@
 
       <!-- SECTION CLIPBOARD -->
       <div class="section-clipboard">
-        <div class="container">
+        <div class="container-header">
           <h2>Clipboard for iOS and Mac OS</h2>
           <p>
             Available for free on the App Store. Download for Mac or iOS, sync
             with iCloud and you’re ready to start adding to your clipboard.
           </p>
-          <a href="#">Download for iOS </a>
-          <a href="#">Download for Mac</a>
+          <div class="btn-flex btn-martop">
+            <a class="btn btn--green" href="#">Download for iOS </a>
+            <a class="btn btn--blue" href="#">Download for Mac</a>
+          </div>
         </div>
       </div>
     </main>
@@ -166,34 +185,75 @@
       <div class="section-footer">
         <div class="container grid grid--six-columns">
           <div>
-            <img src="images/logo.svg" alt="clipboard logo" />
+            <img
+              class="footer-img"
+              src="images/logo.svg"
+              alt="clipboard logo"
+            />
           </div>
-          <div>
-            <a href="#">FAQs</a>
-            <a href="#">Contact Us</a>
-          </div>
-          <div>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Press Kit</a>
-          </div>
-          <div>
-            <a href="#">Install Guide</a>
-          </div>
-          <div>
-            <img src="images/icon-facebook.svg" alt="facebook icon" />
-            <img src="images/icon-twitter.svg" alt="twitter icon" />
-            <img src="images/icon-instagram.svg" alt="instagram icon" />
-          </div>
+          <ul class="footer-flex">
+            <li>
+              <a class="footer-link" href="#">FAQs</a>
+            </li>
+            <li><a class="footer-link" href="#">Contact Us</a></li>
+          </ul>
+          <ul class="footer-flex">
+            <li>
+              <a class="footer-link" href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Press Kit</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-link" href="#">Install Guide</a>
+            </li>
+          </ul>
+          <ul class="footer-icons footer-icons-flex">
+            <li>
+              <a href="#" class="footer-icon-link">
+                <ion-icon class="footer-icon" name="logo-facebook"></ion-icon>
+                <!-- <img src="images/icon-facebook.svg" alt="facebook icon" /> -->
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-icon-link">
+                <!-- <img src="images/icon-twitter.svg" alt="twitter icon" /> -->
+                <ion-icon class="footer-icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-icon-link">
+                <!-- <img src="images/icon-instagram.svg" alt="instagram icon" /> -->
+                <ion-icon class="footer-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
         </div>
         <p class="attribution">
           Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          <a
+            class="attribution-link"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
             >Frontend Mentor</a
           >. Coded by
-          <a href="https://github.com/saharzakersoltani">Sahar Zaker Soltani</a
+          <a
+            class="attribution-link"
+            href="https://github.com/saharzakersoltani"
+            >Sahar Zaker Soltani</a
           >.
         </p>
       </div>
     </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
