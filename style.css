@@ -198,6 +198,7 @@ li {
 .footer-icon-link:link,
 .footer-icon-link:visited {
   color: hsl(210, 10%, 33%);
+  display: block;
 }
 
 .footer-icon-link:hover,
