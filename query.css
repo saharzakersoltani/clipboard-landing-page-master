@@ -70,13 +70,6 @@
     width: 70rem;
   }
 
-  /* .logo-mobile {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    row-gap: 6.4rem;
-    width: 70rem;
-  } */
-
   .logo-mobile {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -95,5 +88,79 @@
 
   .footer-icons-mobile {
     gap: 1.6rem;
+  }
+}
+
+/* ***************** */
+/* Under 650px */
+/* **************** */
+@media (max-width: 40.6em) {
+  .section-header-mobile,
+  .section-features,
+  .section-keep,
+  .section-monitor,
+  .section-access,
+  .section-superchange,
+  .section-logo,
+  .section-clipboard,
+  .section-footer,
+  .section-monitor {
+    width: 65rem;
+    overflow-x: hidden;
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 1.2rem;
+  }
+
+  .section-monitor {
+    margin-bottom: 16.4rem;
+  }
+
+  .access-par {
+    margin-bottom: 4.6rem !important;
+  }
+
+  .section-access,
+  .section-features {
+    margin-bottom: 12.8rem;
+  }
+
+  .btn-mobile {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .monitor-mobile,
+  .clipboard-mobile,
+  .features-mobile,
+  .logo-mobile,
+  .footer-mobile {
+    width: 60rem;
+  }
+
+  .computer-img {
+    width: 50rem;
+  }
+
+  .access-img {
+    width: 60rem;
+  }
+
+  .logo-mobile {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 6.4rem;
+  }
+
+  .footer-mobile {
+    grid-template-columns: 1fr;
   }
 }
