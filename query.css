@@ -1,4 +1,6 @@
+/* **************** */
 /* Under 1245px */
+/* *************** */
 @media (max-width: 77.9em) {
   html {
     font-size: 68%;
@@ -18,8 +20,9 @@
     overflow-x: hidden;
   }
 }
-
+/* ***************** */
 /* Under 850px */
+/* **************** */
 @media (max-width: 53.2em) {
   .section-header-mobile,
   .section-features,
@@ -35,19 +38,19 @@
     overflow-x: hidden;
   }
 
-  .section-header {
-  }
-
   .section-header-mobile {
     background-image: url(images/bg-header-mobile.png);
     background-size: cover;
     padding-bottom: 3rem !important;
   }
 
-  .grid-monitor {
+  .monitor-mobile {
     grid-template-columns: 1fr;
     justify-content: center;
     justify-items: center;
+    width: 70rem;
+    text-align: center;
+    row-gap: 6.4rem;
   }
 
   .computer-img {
@@ -60,5 +63,37 @@
     transform: translate(0rem);
     text-align: center;
     width: 70rem;
+  }
+
+  .features-mobile {
+    grid-template-columns: 1fr;
+    width: 70rem;
+  }
+
+  /* .logo-mobile {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 6.4rem;
+    width: 70rem;
+  } */
+
+  .logo-mobile {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 6.4rem;
+    width: 70rem;
+  }
+
+  .logo-size {
+    width: 15rem;
+  }
+
+  .footer-mobile {
+    width: 70rem;
+    column-gap: 2.6rem;
+  }
+
+  .footer-icons-mobile {
+    gap: 1.6rem;
   }
 }
