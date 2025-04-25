@@ -1,0 +1,64 @@
+/* Under 1245px */
+@media (max-width: 77.9em) {
+  html {
+    font-size: 68%;
+  }
+
+  .section-header,
+  .section-features,
+  .section-keep,
+  .section-monitor,
+  .section-access,
+  .section-superchange,
+  .section-logo,
+  .section-clipboard,
+  .section-footer,
+  .section-monitor {
+    width: 130rem;
+    overflow-x: hidden;
+  }
+}
+
+/* Under 850px */
+@media (max-width: 53.2em) {
+  .section-header-mobile,
+  .section-features,
+  .section-keep,
+  .section-monitor,
+  .section-access,
+  .section-superchange,
+  .section-logo,
+  .section-clipboard,
+  .section-footer,
+  .section-monitor {
+    width: 85rem;
+    overflow-x: hidden;
+  }
+
+  .section-header {
+  }
+
+  .section-header-mobile {
+    background-image: url(images/bg-header-mobile.png);
+    background-size: cover;
+    padding-bottom: 3rem !important;
+  }
+
+  .grid-monitor {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .computer-img {
+    transform: translate(0);
+    text-align: center;
+    width: 70rem;
+  }
+
+  .access-img {
+    transform: translate(0rem);
+    text-align: center;
+    width: 70rem;
+  }
+}

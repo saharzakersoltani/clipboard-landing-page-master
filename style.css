@@ -9,18 +9,9 @@
   background-size: cover;
 }
 
-/* .background-desktop {
-  transform: translateX(-100rem);
-} */
-
 .container-header {
   max-width: 70rem;
   margin: 0 auto;
-}
-
-.bg-desktop {
-  width: 100%;
-  height: 100%;
 }
 
 .header-logo {
