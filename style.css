@@ -173,7 +173,6 @@ li {
 }
 
 .footer-icons {
-  grid-column: 6/7;
   align-self: center;
 }
 
